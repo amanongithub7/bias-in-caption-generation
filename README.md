@@ -1,1 +1,1 @@
-# cs269-proj
+# Detecting bias in image caption generation systems
