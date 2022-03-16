@@ -23,10 +23,10 @@ class ImgCaptionDataset(torch.utils.data.Dataset):
     image_arr = (self.table.iloc[index]).to_numpy()
     image_name, caption = image_arr[0], image_arr[1]
     image = Image.open(os.path.join(self.path, image_name))
-    image = image.resize(self.size)
+    image = image.resize((self.size[1], self.size[2]))
 
-    plt.imshow(image)
-    plt.show()
+    # plt.imshow(image)
+    # plt.show()
         
     # converting image to tensor and normalizing
     transformation = transforms.ToTensor()
