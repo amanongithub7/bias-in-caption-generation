@@ -1,4 +1,4 @@
-# 🤨 Bias in Image Caption Generation Systems
+# 🧐 Bias in Image Caption Generation Systems
 
 This repository defines an Image Caption Generation deep learning model and contains scripts to compare the sentiment of generated captions against training data.
 
